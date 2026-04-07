@@ -1,7 +1,11 @@
 aid: armstrong-world-industries
-url: https://raw.githubusercontent.com/api-evangelist/armstrong-world-industries/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/armstrong-world-industries/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.armstrong-world-industries.com
+description: >-
+  Armstrong World Industries is a designer and manufacturer of innovative commercial
+  and residential ceiling, wall, and suspension system solutions.

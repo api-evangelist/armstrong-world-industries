@@ -28,11 +28,10 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - {url: 'https://www.armstrongceilings.com', status: 302, note: 'armstrongceilings.com and armstrongworldindustries.com both redirect to https://www.armstrong.com/, whose page title is "Armstrong World Industries | Armstrong Ceilings & Walls Solutions" — same company, a domain consolidation onto armstrong.com (re-probed 2026-09-18); Website pointer moved to the canonical host'}
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://www.armstrongceilings.com', status: 302, note: 'declared website redirects to https://www.armstrong.com/ — a different registrable domain (armstrongceilings.com -> armstrong.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/armstrong-world-industries.png
 tags:
   - Architecture
@@ -45,7 +44,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/armstrong-world-industries/refs/heads/main/apis.yml
 created: '2026-03-23'
-modified: '2026-04-19'
+modified: '2026-09-18'
 specificationVersion: '0.23'
 apis: []
 common:
@@ -54,9 +53,21 @@ common:
   - type: LinkedIn
     url: https://www.linkedin.com/company/armstrong-world-industries
   - type: Website
-    url: https://www.armstrongceilings.com
+    url: https://www.armstrong.com
   - type: Documentation
-    url: https://www.armstrongceilings.com/commercial/en-us/
+    url: https://www.armstrongceilings.com/commercial/en/
+  - type: PrivacyPolicy
+    url: https://www.armstrong.com/en-us/privacy.html
+  - type: TermsOfService
+    url: https://www.armstrong.com/en-us/terms.html
+  - type: Blog
+    url: https://www.armstrong.com/en-us/news-insights.html
+  - type: Support
+    url: https://www.armstrong.com/en-us/contact.html
+  - type: GitHubOrganization
+    url: https://github.com/ArmstrongWorldIndustries
+  - type: InvestorRelations
+    url: https://investors.armstrong.com/
   - type: Features
     data:
       - name: Ceiling Systems
@@ -99,3 +110,38 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-09-18'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Armstrong World Industries sells ceiling and wall systems: its corporate site
+    (armstrongceilings.com and armstrongworldindustries.com now both redirect to
+    www.armstrong.com) and the commercial product site publish BIM/Revit/CAD downloads
+    and data sheets but no developer, API, OpenAPI, well-known or llms.txt surface, and
+    its GitHub org holds four internal IT utilities (AEM/Brightcove connectors, an Akamai
+    purge CLI, a java-saml fork), not a client library.
+  evidence:
+    - url: https://www.armstrongceilings.com
+      status: 302
+    - url: https://www.armstrong.com/
+      status: 200
+    - url: https://www.armstrong.com/openapi.json
+      status: 404
+    - url: https://www.armstrong.com/.well-known/api-catalog
+      status: 404
+    - url: https://www.armstrong.com/llms.txt
+      status: 404
+    - url: https://www.armstrongceilings.com/openapi.json
+      status: 404
+    - url: https://www.armstrongceilings.com/.well-known/agent-card.json
+      status: 404
+    - url: https://api.armstrongceilings.com
+      status: 0
+    - url: https://api.github.com/orgs/armstrongworldindustries/repos
+      status: 200
+  checked: '2026-09-18'

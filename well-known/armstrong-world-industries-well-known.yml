@@ -1,0 +1,127 @@
+generated: '2026-09-18'
+method: probed
+source: live probes of the closed well-known path list on every host the record knows (www.armstrong.com is the canonical
+  site; armstrongceilings.com still serves the commercial product site; investors.armstrong.com is the IR host)
+hit_count: 0
+note: 'No well-known document is served on any Armstrong host: www.armstrong.com and www.armstrongceilings.com 404 every path;
+  investors.armstrong.com (Q4 IR platform) answers an 11-byte HTML 200 for arbitrary /.well-known/* paths, which the negative
+  control exposes as a catch-all. No WellKnown/SecurityTxt pointer is emitted.'
+hosts:
+- host: https://www.armstrong.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/ucp.json
+    status: 404
+  - path: /.well-known/acp.json
+    status: 404
+  - path: /.well-known/aauth-resource.json
+    status: 404
+  - path: /.well-known/apis.json
+    status: 404
+  - path: /apis.json
+    status: 404
+  - path: /apis.yml
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  soft_404_control:
+    path: /.well-known/armstrong-world-industries-negative-control-7gk9d279.json
+    status: 404
+    bytes: 3125
+  path_echo_control: passed
+- host: https://www.armstrongceilings.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/ucp.json
+    status: 404
+  - path: /.well-known/acp.json
+    status: 404
+  - path: /.well-known/aauth-resource.json
+    status: 404
+  - path: /.well-known/apis.json
+    status: 404
+  - path: /apis.json
+    status: 404
+  - path: /apis.yml
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  soft_404_control:
+    path: /.well-known/armstrong-world-industries-negative-control-bstp5kzs.json
+    status: 404
+    bytes: 4838
+  path_echo_control: passed
+- host: https://investors.armstrong.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  - path: /.well-known/openid-configuration
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  - path: /.well-known/api-catalog
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  - path: /.well-known/ucp.json
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  - path: /.well-known/acp.json
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  - path: /.well-known/aauth-resource.json
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  - path: /.well-known/apis.json
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  - path: /apis.json
+    status: 404
+  - path: /apis.yml
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  - path: /.well-known/agent.json
+    status: 200
+    note: 2xx but not a document (11 bytes, text/html)
+  soft_404_control:
+    path: /.well-known/armstrong-world-industries-negative-control-0ztmcaf9.json
+    status: 200
+    bytes: 11
+  path_echo_control: failed
+  note: host answers 2xx for paths that cannot exist — every 2xx above is a catch-all, not a document

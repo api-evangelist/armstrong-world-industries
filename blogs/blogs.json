@@ -1,0 +1,14 @@
+{
+  "repo": "armstrong-world-industries",
+  "feeds": [
+    {
+      "source": "https://www.armstrong.com/en-us/terms.html",
+      "feed_url": "https://www.armstrong.com/en-us/terms.html",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-19T20:17:39Z"
+}

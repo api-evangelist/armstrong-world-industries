@@ -1,7 +1,9 @@
 ---
 title: ARMSTRONG WORLD INDUSTRIES INC Earnings Call ...
 url: https://www.stockinsights.ai/us/AWI/earnings-transcript/fy25-q1-ddb1
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Armstrong World Industries" press release artificial intelligence'
 position: 2
 source: serpapi-google

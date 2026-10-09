@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: www.armstrongceilings.com
   final_host: www.armstrong.com
-  ownership: own
+  ownership: inherited
   owner: armstrong-world-industries
   shares_host_with: null
-  inherited_from: null
+  inherited_from: www.armstrong.com
+  alias_of: null
   verdict: silent
-  score: 0
+  score: null
+  band: null
+  band_label: null
   host_score: 0
-  density: 0.0
+  density: null
   words: 1129
   tiers:
     agentic: 0

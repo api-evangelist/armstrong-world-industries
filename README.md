@@ -1,4 +1,4 @@
-# Armstrong World Industries (armstrong-world-industries)
+# Armstrong World Industries
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,48 +66,83 @@
 
 Armstrong World Industries (NYSE: AWI) is a leading global designer and manufacturer of innovative commercial and residential ceiling, wall, and suspension system solutions. Armstrong offers a broad portfolio of ceiling and wall products across mineral fiber, fiberglass, wood, metal, and specialty substrates for use in commercial construction and renovation projects worldwide. The company provides BIM content, product data, and specification tools for architects and designers but does not offer a public developer API.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/armstrong-world-industries/refs/heads/main/apis.yml)
+**Areas:** Architecture · Building Materials · Ceilings · Construction · Manufacturing · Walls · Fortune 1000
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Armstrong World Industries on APIs.io
 
-## Tags:
+Everything profiled for Armstrong World Industries is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/armstrong-world-industries/](https://apis.io/providers/armstrong-world-industries/)** — or go straight to one of the APIs or properties below.
 
- - Architecture, Building Materials, Ceilings, Construction, Manufacturing, Walls
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-03-23
-- **Modified:** 2026-04-19
+#### Security (1)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
-No public APIs have been documented for Armstrong World Industries. The company provides BIM content downloads, product specification tools, and Revit families for architects and designers, but does not currently offer a public developer API or REST endpoints.
+- [Armstrong World Industries Domain Security](https://apis.io/security/armstrong-world-industries/armstrong-world-industries-domain-security/)
 
-## Common Properties
+## Where to find this API
 
-- [Website](https://www.armstrongceilings.com)
-- [Documentation](https://www.armstrongceilings.com/commercial/en-us/)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Features
+- [Website](https://www.armstrong.com)
+- [Documentation](https://www.armstrongceilings.com/commercial/en/)
+- [Support](https://www.armstrong.com/en-us/contact.html)
+- [Blog](https://www.armstrong.com/en-us/news-insights.html)
+- [Terms of service](https://www.armstrong.com/en-us/terms.html)
+- [Privacy policy](https://www.armstrong.com/en-us/privacy.html)
+- [GitHub](https://github.com/ArmstrongWorldIndustries)
 
-| Name | Description |
-|------|-------------|
-| Ceiling Systems | Extensive portfolio of suspended acoustic ceiling systems including mineral fiber, fiberglass, wood, metal, and specialty tile products for commercial and residential applications. |
-| Wall Solutions | Architectural wall system products including felt, wood, metal, and specialty panel systems for interior design and acoustic performance. |
-| BIM Content Library | Revit families and BIM content for Armstrong ceiling and wall products available for download by architects and designers for building information modeling workflows. |
-| Product Specification Tools | Online product selector and specification tools allowing architects to configure ceiling systems and generate specifications and submittal documents. |
-| PROJECTWORKS Service | Customized 3D model and visualization service for complex ceiling projects, providing detailed installation drawings and visualization for contractors. |
+## API Evangelist rating
 
-## Use Cases
+**Kin Score 12.5** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-| Name | Description |
-|------|-------------|
-| Commercial Construction Specification | Architects and designers specify Armstrong ceiling and wall systems for commercial office, education, healthcare, and hospitality projects using product selectors and specification tools. |
-| BIM Modeling | Building professionals download Revit families and BIM content to model Armstrong ceiling systems accurately in building information models. |
-| Acoustic Design | Specify ceiling and wall products optimized for noise reduction and acoustic performance in open-plan offices, classrooms, and healthcare facilities. |
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 21.1 |
 
-## Maintainers
+**Agent readiness 0.0** — human-only
 
-**FN:** Kin Lane
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-**Email:** kin@apievangelist.com
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/armstrong-world-industries/](https://apis.io/providers/armstrong-world-industries/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Armstrong World Industries: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/armstrong-world-industries/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
